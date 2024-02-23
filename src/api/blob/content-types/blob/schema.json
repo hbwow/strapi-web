@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blobs",
+  "info": {
+    "singularName": "blob",
+    "pluralName": "blobs",
+    "displayName": "blob",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "essay",
+        "article"
+      ],
+      "required": true
+    }
+  }
+}
